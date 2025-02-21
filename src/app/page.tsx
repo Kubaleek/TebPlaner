@@ -1,25 +1,25 @@
-import { DotPattern } from '@/components/magicui/dot-pattern';
-import { cn, nowCopyRight } from '@/lib/utils';
+// import { DotPattern } from '@/components/magicui/dot-pattern';
+import { nowCopyRight } from '@/lib/utils';
 
 export default function Home() {
-  const DotArrays = [
-    {
-      id: 1,
-      className: '[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] fill-blue-800  text-blue-800',
-    },
-    {
-      id: 2,
-      className:  '[mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)] fill-blue-800  text-blue-800',
-    },
-    {
-      id: 3,
-      className: '[mask-image:linear-gradient(to_top_left,white,transparent,transparent)] fill-red-800 text-red-800',
-    },
-    {
-      id: 4,
-      className: '[mask-image:linear-gradient(to_top_right,white,transparent,transparent)] fill-red-800 text-red-800',
-    }
-  ]
+  // const DotArrays = [
+  //   {
+  //     id: 1,
+  //     className: '[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] fill-blue-800  text-blue-800',
+  //   },
+  //   {
+  //     id: 2,
+  //     className:  '[mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)] fill-blue-800  text-blue-800',
+  //   },
+  //   {
+  //     id: 3,
+  //     className: '[mask-image:linear-gradient(to_top_left,white,transparent,transparent)] fill-red-800 text-red-800',
+  //   },
+  //   {
+  //     id: 4,
+  //     className: '[mask-image:linear-gradient(to_top_right,white,transparent,transparent)] fill-red-800 text-red-800',
+  //   }
+  // ]
   const nowYear = nowCopyRight();
 
   return (
@@ -47,11 +47,11 @@ export default function Home() {
           zastrzeżone.
         </p>
       </div>
-      <div className="col-span-12 md:col-span-7 lg:col-span-7  xl:col-span-8  w-full order-1 md:order-2 h-full lg:h-screen relative hidden md:flex flex-col items-start gap-6 televisor:gap-8 p-6 justify-center overflow-hidden">
-        {DotArrays.map((dot) => (
+      <div className="col-span-12 md:col-span-7 lg:col-span-7  xl:col-span-8  w-full order-1 md:order-2 h-full lg:h-screen container relative hidden md:flex flex-col items-start gap-6 televisor:gap-8 p-6 justify-start overflow-hidden">
+        {/* {DotArrays.map((dot) => (
           <DotPattern key={dot.id} width={20} height={20} cx={1} cy={1} cr={1} opacity={1} className={cn(dot.className)} />
-        ))}
-        <div className="flex flex-col gap-4 televisor:gap-5 backdrop-blur-3xl z-10 p-3">
+        ))} */}
+        <div className="flex flex-col gap-4 televisor:gap-5  z-10 p-3">
           <h1 className="text-4xl  televisor:text-7xl televisor:font-bold">
             Teb <span className="text-red-600">Technikum</span> i{' '}
             <span className="text-blue-600">Liceum</span> Panel
