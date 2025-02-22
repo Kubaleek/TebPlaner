@@ -5,7 +5,7 @@ import '@/styles/globals.css';
 const interSans = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
-  weight: '400',
+  weight: '200',
   display: 'swap',
 });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${interSans.variable} will-change-auto relative text-sm sm:text-base lg:text-lg televisor:text-4xl max-h-svh bg-zinc-200 text-zinc-800 font-medium antialiased`}
+        className={`${interSans.variable} will-change-auto relative text-sm sm:text-base lg:text-lg televisor:text-4xl max-h-svh bg-[#fafafa] text-[#232225]  antialiased`}
       >
         {children}
       </body>
