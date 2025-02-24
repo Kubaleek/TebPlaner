@@ -7,6 +7,7 @@ import { GridPattern } from '@/components/magicui/grid-pattern';
 export default function LoginGraphic() {
     return (
         <div className="col-span-12 lg:col-span-6 lg:flex relative  h-full z-[-1] lg:h-screen flex-col hidden justify-center items-center bgLogin ">
+          
         <DotPattern className="stroke-[#ff828a] fill-[#ff828a] [mask-image:radial-gradient(300px_circle_at_top_right,white,transparent)] xl:[mask-image:radial-gradient(800px_circle_at_top_right,white,transparent)]" />
         <GridPattern className="stroke-[#ff828a] fill-[#ff828a] [mask-image:radial-gradient(300px_circle_at_bottom_left,white,transparent)] xl:[mask-image:radial-gradient(600px_circle_at_bottom_left,white,transparent)]" />
         <Image
@@ -43,6 +44,7 @@ export default function LoginGraphic() {
             </div>
           </div>
         </div>
+       
       </div>
     );
 }
