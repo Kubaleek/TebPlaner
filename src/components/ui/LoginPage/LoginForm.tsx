@@ -54,7 +54,7 @@ export default function LoginForms() {
                   placeholder="Hasło"
                 />
               </div>
-              <Button type="submit" className="rounded-none rounded-e-lg bg-red-50 border text-red-900 placeholder-red-400 focus:outline-none hover:bg-red-200 text-base  block flex-1 min-w-0 w-full border-red-300 p-2.5">Zaloguj się</Button>
+              <Button type="submit" className="rounded-none rounded-e-lg bg-red-50 border text-red-900 placeholder-red-400 focus:outline-none hover:bg-gray-50 text-base  block flex-1 min-w-0 w-full border-red-300 p-2.5">Zaloguj się</Button>
             </form>
             <p className="text-gray-100 max-w-sm mx-auto font-semibold text-center text-base">
             © {nowYear} Teb <span>Technikum</span> i <span>Liceum</span> Wszelkie prawa zastrzeżone.

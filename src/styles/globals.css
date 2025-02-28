@@ -73,9 +73,6 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
 }
 
 .bgLogin {
@@ -88,7 +85,26 @@
   background-size: cover;
   background-position: center center;
 }
+
 .loginFormBackground{
+  background: url("../../public/wave-haikeiv2.svg");
+  background-size: cover;
+  background-position: center left;
+  
+}
+
+.bgLoading {
+  background: url("../../public/tebBg.png");
+  background-size: cover;
+  background-position: center center;
+}
+.LoadingBackground {
+  background: url("../../public/loginBg.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.LoadingFormBackground{
   background: url("../../public/wave-haikeiv2.svg");
   background-size: cover;
   background-position: center left;
