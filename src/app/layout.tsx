@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body
-        className={`${interSans.variable} will-change-auto relative text-sm sm:text-base lg:text-lg televisor:text-4xl max-h-svh ttttt text-[#232225]  antialiased`}>
+        className={`${interSans.variable} will-change-auto relative text-sm sm:text-base lg:text-lg televisor:text-4xl max-h-svh  text-[#232225]  antialiased`}>
         {children}
       </body>
     </html>
