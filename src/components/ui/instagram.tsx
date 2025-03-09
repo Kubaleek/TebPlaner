@@ -2,7 +2,7 @@ import { Ellipsis } from "lucide-react";
 import { Avatar, AvatarImage } from "../shadcn/avatar";
 import Image from "next/image";
 
-export default function FacebookPost() {
+export default function InstagramPost() {
   return (
     <div className="text-base grid grid-cols-1 lg:grid-cols-2 gap-6 bg-[#fafafa] p-4 rounded-lg h-full shadow-md">
       <div>
@@ -23,13 +23,12 @@ export default function FacebookPost() {
               </Avatar>
               <div>
                 <h2 className="font-medium text-lg">TEB Liceum i Technikum Łódź</h2>
-                <p className="text-sm text-gray-600">6 marca o 12:58</p>
               </div>
             </div>
             <Ellipsis />
           </div>
 
-          <div className="flex flex-col justify-between gap-3">
+          <div className="flex flex-col  gap-6">
             <p className="leading-7 text-gray-800 text-base">
               8-klasisto, wpadnij na drzwi otwarte w TEB Liceum i Technikum, które odbędą się 20
               marca od godz. 14:00. 🤩 👉 Spotkaj się z nauczycielami oraz uczniami i poznaj naszą
@@ -42,19 +41,10 @@ export default function FacebookPost() {
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row sm:justify-between items-start gap-3">
-          <div className="flex items-center gap-2">
-            <div className="flex items-center gap-1">
-              <Image src="/heart.svg" alt="serce" width={16} height={16} />
-              <span className="text-sm">0</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Image src="/like.svg" alt="like" width={16} height={16} />
-              <span className="text-sm">0</span>
-            </div>
-          </div>
+        <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center gap-3">
+          <p className="text-sm text-gray-600">Liczba polubień: 0</p>
           <div className="flex gap-2 sm:gap-4 text-sm text-gray-600">
-            <p>0 Komentarz</p>
+            <p >0 Komentarz</p>
             <p>0 Udostępnienie</p>
           </div>
         </div>
