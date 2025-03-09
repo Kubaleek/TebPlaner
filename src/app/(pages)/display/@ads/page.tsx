@@ -10,7 +10,7 @@ const SwapperAds = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowPost((prev) => !prev);
-    }, 12000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []); 
